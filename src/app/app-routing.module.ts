@@ -23,6 +23,8 @@ const routes: Routes = [
   { path: '**', component: NotfoundComponent }
 
 ];
+
+
 @NgModule({
   declarations: [],
   imports: [
@@ -31,4 +33,5 @@ const routes: Routes = [
   ],
   exports: [ RouterModule ]
 })
+
 export class AppRoutingModule { }
